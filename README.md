@@ -8,3 +8,5 @@ This will require modifying the `server.js` file and the `website/app.js` file. 
 
 ## Extras
 If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+
+This is a program to fetch a temperature from openweathermap.org and to put it in api with a date and how I feel today. the program take a zip code and fetch the temperature. while I add my feeling in textarea, finally when I click generate it copy all information and put it in textfield. this webapi is programmed in a course with Udacity in front end developer course.
