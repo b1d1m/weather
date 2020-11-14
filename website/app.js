@@ -49,11 +49,9 @@ const postWeather = async ( url = '', data = {}) => {
 }
 
 const updateUI = async (url='') => {
-    console.log(url);
     const request = await fetch(url);
     try {
         const allData = await request.json();
-        console.log(allData)
         document.getElementById('date').innerHTML = allData[0].date;
         document.getElementById('temp').innerHTML =  allData[0].temprature;
         document.getElementById('content').innerHTML = allData[0].userResponse;
